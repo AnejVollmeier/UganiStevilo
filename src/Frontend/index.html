@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UganiStevilo</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/index.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <h3>Ugani stevilo</h3>
+      <div class="game">
+        <input
+          type="number"
+          min="1"
+          max="10"
+          id="playerchoice"
+          placeholder="Vnesi stevilo"
+        />
+        <button id="gameBtn" onclick="game()">Igraj</button>
+      </div>
+      <div class="result">
+        <div id="playerDisplay">TVOJA IZBIRA :</div>
+        <div id="computerDisplay">RAČUNALNIK :</div>
+      </div>
+      <div id="resultDisplay"></div>
+    </div>
+  </body>
+</html>
